@@ -2,8 +2,6 @@
 
 Welcome to my personal portfolio website! This website showcases my projects, skills, and experience. You can visit the live site [here](https://ezzcode.github.io/portfolio/).
 
-![Homepage Screenshot](![image](https://github.com/user-attachments/assets/fa2e1fab-8a1c-47b9-9913-18fef9c8a844))
-
 ## Table of Contents
 - [Overview](#overview)
 - [Pages](#pages)
