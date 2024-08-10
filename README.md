@@ -23,22 +23,22 @@ This portfolio website is designed to present my professional background, includ
 ### Home
 The landing page introduces who I am, providing a quick overview of my featured projects and my CV. It features a navigation menu to easily access other sections of the website.
 
-![Home Page](![image](https://github.com/user-attachments/assets/fa2e1fab-8a1c-47b9-9913-18fef9c8a844))
+![Home Page](https://github.com/user-attachments/assets/fa2e1fab-8a1c-47b9-9913-18fef9c8a844)
 
 ### Skills
 The About page gives a more detailed description of my Skills. It's the place where you can get to know more about me.
 
-![Skills Page](![image](https://github.com/user-attachments/assets/7027fb24-a97a-4751-a67b-3ab050a956f4))
+![Skills Page](https://github.com/user-attachments/assets/7027fb24-a97a-4751-a67b-3ab050a956f4)
 
 ### Projects
 The Projects page highlights the projects I've worked on, showcasing my skills and accomplishments. Each project includes a brief description, the technologies used, and a link to the project itself.
 
-![Projects Page](![image](https://github.com/user-attachments/assets/36304fd1-ee55-43b0-910f-17991f29e8ed))
+![Projects Page](https://github.com/user-attachments/assets/36304fd1-ee55-43b0-910f-17991f29e8ed)
 
 ### Contact
 The Contact page provides a form where visitors can reach out to me and links to my social media. It includes fields for name, email, and message.
 
-![Contact Page](![image](https://github.com/user-attachments/assets/101aebea-9216-4acb-9a1e-e3a74ba1f6d2))
+![Contact Page](https://github.com/user-attachments/assets/101aebea-9216-4acb-9a1e-e3a74ba1f6d2)
 
 ## Technologies Used
 - HTML5
@@ -53,15 +53,15 @@ To view the website, simply visit [this link](https://ezzcode.github.io/portfoli
 ## Screenshots
 
 ### Home Page
-![Home Page Screenshot](![image](https://github.com/user-attachments/assets/fa2e1fab-8a1c-47b9-9913-18fef9c8a844))
+![Home Page Screenshot](https://github.com/user-attachments/assets/fa2e1fab-8a1c-47b9-9913-18fef9c8a844)
 
 ### Skills Page
-![Skills Page Screenshot](![image](https://github.com/user-attachments/assets/7027fb24-a97a-4751-a67b-3ab050a956f4))
+![Skills Page Screenshot](https://github.com/user-attachments/assets/7027fb24-a97a-4751-a67b-3ab050a956f4)
 
 ### Projects Page
-![Projects Page Screenshot](![image](https://github.com/user-attachments/assets/36304fd1-ee55-43b0-910f-17991f29e8ed))
+![Projects Page Screenshot](https://github.com/user-attachments/assets/36304fd1-ee55-43b0-910f-17991f29e8ed)
 
 ### Contact Page
-![Contact Page Screenshot](![image](https://github.com/user-attachments/assets/101aebea-9216-4acb-9a1e-e3a74ba1f6d2))
+![Contact Page Screenshot](https://github.com/user-attachments/assets/101aebea-9216-4acb-9a1e-e3a74ba1f6d2)
 
 
