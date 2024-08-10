@@ -9,6 +9,26 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.getElementById('contactForm').addEventListener('submit', function (e) {
+                e.preventDefault();
+
+                const formData = new FormData(this);
+
+                fetch('https://docs.google.com/forms/u/0/d/e/1FAIpQLSfpoDJeIzvWTgTmK_Q-kKVPK_isK4TPSHHJJbDjykSCjzK8CA/formResponse', {
+                    method: 'POST',
+                    body: formData,
+                    mode: 'no-cors'
+                }).then(() => {
+                    alert('Message sent successfully!');
+                }).catch(() => {
+                    alert('There was an error sending the message.');
+                });
+            }
+            );
+        });
+    </script>
     <link href="styles.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     <title>My Webpage</title>
@@ -56,7 +76,9 @@
                         <i class="bi bi-telephone"></i>
                         <div class="ms-3">
                             <div class="contact-info-title">Phone</div>
-                            <div>+20-122-777-XXXX</div>
+                            <a href="tel:+201227774774">
+                                <div>+20-122-777-4774</div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -65,7 +87,9 @@
                         <i class="bi bi-envelope"></i>
                         <div class="ms-3">
                             <div class="contact-info-title">Email</div>
-                            <div>ezz0504XXXX@gmail.com</div>
+                            <a href="mailto:ezz05042003@gmail.com">
+                                <div>ezz05042003@gmail.com</div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -82,22 +106,22 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <span>(WIP)🚧⏳</span>
                 <h2>Send Message</h2>
-                <form>
+                <form id="contactForm">
                     <div class="mb-3">
                         <label for="name" class="form-label">Full Name</label>
-                        <input type="text" class="form-control" id="name" required disabled>
+                        <input type="text" class="form-control" name="entry.2005620554" id="name" required>
                     </div>
                     <div class="mb-3">
                         <label for="email" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="email" required disabled>
+                        <input type="email" class="form-control" name="entry.1045781291" id="email" required>
                     </div>
                     <div class="mb-3">
                         <label for="message" class="form-label">Type your message...</label>
-                        <textarea class="form-control" id="message" rows="5" required disabled></textarea>
+                        <textarea class="form-control" name="entry.1065046570" id="message" rows="5"
+                            required></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary" disabled>Send</button>
+                    <button type="submit" class="btn btn-primary">Send</button>
                 </form>
             </div>
         </div>
